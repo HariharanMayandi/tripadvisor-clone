@@ -1,0 +1,733 @@
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/**Navbar**/
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+    
+    
+}
+.menu{
+    display: none;
+    
+}
+
+.navbar__title {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar__title {
+    font-weight: 300;
+
+}
+
+.navbar__title img {
+    width: 50px;
+    height: 45px;
+    margin-right: 0%;
+}
+
+.navbar__centre {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar__centre p {
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.navbar__centre p:hover {
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.navbar__corner__inr {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbar__corner__inr:hover {
+    padding: 10px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+.navbar__corner__inr p {
+    margin-left: 5px;
+    border-left: #E0E0E0 1px solid;
+    padding-left: 7px;
+
+}
+
+.navbar__corner {
+    display: flex;
+    gap: 10px
+}
+
+.navbar__corner__signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.navbar__corner__signin button {
+    border: none;
+    font-size: 16px;
+    background-color: black;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+
+
+    border-radius: 20px;
+
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user i{display: none;}
+
+/**whereto**/
+.whereto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 27px;
+    font-weight: 900;
+}
+
+/**properties*/
+.properties {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 8px;
+    align-items: center;
+
+
+
+
+}
+
+.property__1 {
+    display: flex;
+    gap: 5px;
+    padding: 8px;
+
+    align-items: center;
+    border-bottom: black solid 2px;
+
+
+}
+
+.property__1:hover {
+    opacity: 0.7;
+    padding: 8px;
+}
+
+.properties div {
+    display: flex;
+    gap: 5px;
+    padding: 8px;
+    border-color: white;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+}
+
+.properties div:hover {
+    opacity: 0.7;
+    border-bottom: black solid 2px;
+
+
+
+}
+
+/**search bar**/
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.search1 {
+    border: 1px black solid;
+    width: 52%;
+    border-radius: 35px;
+
+}
+
+.search1 div {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+
+}
+
+.search1 div input {
+    width: 95%;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+
+}
+
+.search1 div i {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.search1 div button {
+    border: none;
+    cursor: pointer;
+
+    padding: 14px 24px;
+    background-color: #34E0A1;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+.search1 div button:hover {
+    opacity: 0.8;
+}
+
+.container7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.promoimage {
+    position: relative;
+    width: 75%;
+    background-color: #DCCBFF;
+    height: 450px;
+
+
+
+
+}
+
+.promoimage img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+
+
+}
+
+
+
+
+
+
+.qoutes {
+    width: 300px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+
+
+}
+
+.qoutes h1 {
+    font-size: 50px;
+}
+
+
+
+.p2 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.qoutes button {
+    background-color: #301D49;
+    padding: 15px 25px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.qoutes button:hover {
+    opacity: 0.8;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.sponserbyad {
+    display: flex;
+    margin-top: 20px;
+
+    width: 75%;
+    padding: 10px;
+    background-color: #F2ECF9;
+    gap: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.sponserbyad div {
+    padding-top: 50px;
+}
+
+.sponserbyad div button {
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: white;
+    font-weight: 800;
+    border-radius: 20px;
+    width: 100px;
+    cursor: pointer;
+    border: black solid 1px;
+}
+
+.sponserbyad div button:hover {
+    background-color: black;
+    color: white;
+}
+
+.sponserbyad img {
+    transform: rotate(5deg);
+    padding: 10px;
+}
+
+/**awardhotel**/
+.container2 h2 {
+    margin-left: 190px;
+
+    margin-top: 10px;
+    width: 75%;
+}
+
+.container2 p {
+    margin-left: 190px;
+
+    margin-top: 10px;
+    width: 75%;
+
+}
+
+.awardhotel {
+    margin-left: 190px;
+
+    margin-top: 10px;
+    width: 75%;
+}
+
+.awardhotel div {
+    position: relative;
+
+}
+
+.awardhotel h1 {
+    position: absolute;
+    bottom: 15%;
+    right: 30%;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+.awardhotel {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    overflow: auto;
+
+}
+
+.awardhotel div img {
+    border-radius: 10px;
+}
+
+/**coimbatore**/
+.container4 h2 {
+    margin-left: 190px;
+
+    margin-top: 10px;
+    width: 75%;
+}
+
+.p1 {
+    margin-left: 190px;
+
+    margin-top: 10px;
+    width: 75%;
+
+}
+
+.coimbatoreplace {
+    margin-left: 190px;
+
+    margin-top: 10px;
+    width: 75%;
+
+
+}
+
+.coimbatoreplace div img {
+    border-radius: 10px;
+}
+
+.coimbatoreplace {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    overflow: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.coimbatoreplace h4 {
+    font-size: 18px;
+    padding: 2px;
+}
+
+.review {
+    padding: 2px;
+}
+
+.coimbatoreplace p {
+    padding: 2px;
+}
+
+.container5 {
+    background-color: #FAF1ED;
+    margin-top: 10px;
+    padding: 30px;
+
+
+}
+
+.container5 h2 {
+
+    margin-left: 190px;
+
+    margin-top: 10px;
+    width: 75%;
+}
+
+.Explore div img {
+    width: 374px;
+    height: 237.6px;
+    border-radius: 10px;
+
+
+}
+
+.Explore {
+    display: flex;
+    gap: 10px;
+    vertical-align: top;
+    justify-content: center;
+    margin-left: 190px;
+
+    margin-top: 10px;
+    width: 75%;
+
+
+}
+
+.adpicture img {
+    width: 100%;
+}
+
+/**footer**/
+.container6 {
+    background-color: #FAF1ED;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    gap: 80px
+}
+
+.footeroptions1 {
+    display: flex;
+    gap: 40px;
+    font-weight: 400;
+
+
+}
+
+.footeroptions1__desc {
+    list-style: none;
+    cursor: pointer;
+}
+
+.footeroptions2__desc {
+    list-style: none;
+}
+
+.selectoption {
+    padding: 10px;
+
+}
+
+.selectoption select {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
+
+.socialmedia i {
+    cursor: pointer;
+}
+
+/**media screen**/
+
+/**promo image**/
+@media screen and (max-width:800px) {
+    body {
+        font-size: 10px;
+        overflow: none;
+    }
+    
+
+    .promoimage {
+        width: 100%;
+        border-radius: 0;
+        height: 350px;
+        display: flex;
+        position: relative;
+
+    }
+
+    .promoimage img {
+        height: 100%;
+        width: 100%;
+        
+        
+
+    }
+    .qoutes h1{
+        font-size: 32px;
+    }
+    .qoutes p{
+        font-size:14px;
+    }
+
+    .qoutes {
+        
+        width: 30%;
+
+    }
+
+    .qoutes button {
+        padding:5px;
+
+        font-size: 10px;
+        margin-top: 5px;
+
+    }
+}
+
+@media screen and (max-width:600px) {
+    .navbar__corner__inr{
+        display: none;
+    }
+    .navbar__corner__signin{
+        display:none;
+
+    }
+    .user i{
+        display: block;
+    }
+    .navbar__centre{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .navbar {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+        background-color: white;
+        z-index: 1;
+        
+        
+    }
+    .properties{
+        justify-content: center;
+        width:80%
+    }
+
+    .property__1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   .properties div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .container2 h2 {
+    margin-left: 80px;
+
+    margin-top: 5px;
+    width: 33%;
+}
+
+.container2 p {
+    margin-left: 80px;
+
+    margin-top: 10px;
+    width: 33%;
+
+}
+.awardhotel{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    overflow: auto;
+    margin-left: 80px;
+    margin-top: 5px;
+    
+
+}
+.container4 h2 {
+    margin-left: 80px;
+
+    margin-top: 5px;
+    width: 33%;
+}
+
+.p1 {
+    margin-left: 80px;
+
+    margin-top: 5px;
+    width: 33%;
+
+}
+
+.coimbatoreplace {
+    margin-left: 80px;
+
+    margin-top: 5px;
+    width: 75%;
+
+
+}
+
+.coimbatoreplace div img {
+    border-radius: 5px;
+}
+
+.coimbatoreplace div {
+    flex-grow: 1;
+    
+}
+
+.coimbatoreplace {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.coimbatoreplace h4 {
+    font-size: 9px;
+    padding: 1px;
+}
+
+.review {
+    padding: 1px;
+}
+
+.coimbatoreplace p {
+    padding: 1px;
+}
+
+.container6 {
+    width: fit-content;
+    
+}
+
+
+
+
+
+ 
+}
+
